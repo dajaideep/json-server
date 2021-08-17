@@ -1,0 +1,288 @@
+[
+   {
+      "_id": 1,
+      "pgid": 2,
+      "name": "S1",
+      "visible": true,
+      "edit": false,
+      "page": {
+         "Page1": {
+            "name": "P1",
+            "_uid": "Section1|Page1",
+            "visible": true,
+            "edit": false,
+            "logic": {
+               "loop": false,
+               "loopMax": 0,
+               "loopDepend": "",
+               "dependValue": "",
+               "subLoop": 0,
+               "subLoopPage": ""
+            },
+            "qid": 7,
+            "question": {
+               "Section1-Page1-001": {
+                  "qn": "Q1",
+                  "qtext": "Radio ",
+                  "_index": 1,
+                  "toggle": false,
+                  "qtype": "Radio",
+                  "opt": [
+                     {
+                        "id": 1,
+                        "item": "Telephone",
+                        "cd": 1,
+                        "vl": 5,
+                        "tag": "",
+                        "dup": false,
+                        "top": false,
+                        "same": false
+                     },
+                     {
+                        "id": 2,
+                        "item": "Radio",
+                        "cd": 2,
+                        "vl": 3,
+                        "tag": "",
+                        "dup": false,
+                        "top": false,
+                        "same": false
+                     },
+                     {
+                        "id": 3,
+                        "item": "Tv",
+                        "cd": 3,
+                        "vl": 1,
+                        "tag": "",
+                        "dup": false,
+                        "top": false,
+                        "same": false
+                     }
+                  ],
+                  "opto": [],
+                  "optn": [],
+                  "style": {
+                     "background-color": "inherit",
+                     "color": "inherit",
+                     "font-size": "15px",
+                     "font-weight": "inherit",
+                     "text-align": "left"
+                  },
+                  "setting": {
+                     "hint": "",
+                     "required": true,
+                     "hide": false,
+                     "selectType": "radio",
+                     "minAnswer": 0,
+                     "maxAnswer": 0,
+                     "displayColumn": 1,
+                     "codeValue": false,
+                     "assValue": true,
+                     "order": {
+                        "orderType": "same",
+                        "top": [],
+                        "bottom": [],
+                        "position": []
+                     }
+                  },
+                  "branching": {
+                     "id": 1
+                  },
+                  "logic": {
+                     "inclusive": [],
+                     "exclusive": [],
+                     "visible": {},
+                     "enable": {},
+                     "option": {
+                        "1": {
+                           "syntex": "",
+                           "code": ""
+                        },
+                        "2": {
+                           "syntex": "",
+                           "code": ""
+                        },
+                        "3": {
+                           "syntex": "",
+                           "code": ""
+                        }
+                     },
+                     "script": {}
+                  }
+               },
+               "Section1-Page1-002": {
+                  "qn": "Q2",
+                  "qtext": "Checkbox",
+                  "_index": 2,
+                  "toggle": false,
+                  "qtype": "Radio",
+                  "opt": [
+                     {
+                        "id": 1,
+                        "item": "Urban",
+                        "cd": 1,
+                        "vl": 20,
+                        "tag": "",
+                        "dup": false,
+                        "top": false,
+                        "same": false
+                     },
+                     {
+                        "id": 2,
+                        "item": "Rural",
+                        "cd": 2,
+                        "vl": 5,
+                        "tag": "",
+                        "dup": false,
+                        "top": false,
+                        "same": false
+                     },
+                     {
+                        "id": 3,
+                        "item": "Brand3",
+                        "cd": 3,
+                        "vl": -2,
+                        "tag": "",
+                        "dup": false,
+                        "top": false,
+                        "same": false
+                     }
+                  ],
+                  "opto": [],
+                  "optn": [],
+                  "style": {
+                     "background-color": "inherit",
+                     "color": "inherit",
+                     "font-size": "15px",
+                     "font-weight": "inherit",
+                     "text-align": "left"
+                  },
+                  "setting": {
+                     "hint": "",
+                     "required": true,
+                     "hide": false,
+                     "selectType": "checkbox",
+                     "minAnswer": 0,
+                     "maxAnswer": 0,
+                     "displayColumn": 1,
+                     "codeValue": false,
+                     "assValue": true,
+                     "order": {
+                        "orderType": "same",
+                        "top": [],
+                        "bottom": [],
+                        "position": []
+                     }
+                  },
+                  "branching": {
+                     "id": 1
+                  },
+                  "logic": {
+                     "inclusive": [],
+                     "exclusive": [],
+                     "visible": {},
+                     "enable": {},
+                     "option": {
+                        "1": {
+                           "syntex": "",
+                           "code": ""
+                        },
+                        "2": {
+                           "syntex": "",
+                           "code": ""
+                        },
+                        "3": {
+                           "syntex": "",
+                           "code": ""
+                        }
+                     },
+                     "script": {}
+                  }
+               },
+               "Section1-Page1-006": {
+                  "qn": "Q3",
+                  "qtext": "Lookup Table",
+                  "_index": 6,
+                  "toggle": false,
+                  "qtype": "Lookup",
+                  "opt": [
+                     {
+                        "id": 1,
+                        "item": "Prod",
+                        "cd": 1,
+                        "vl": 0,
+                        "tag": "",
+                        "dup": false
+                     },
+                     {
+                        "id": 2,
+                        "item": "Edu",
+                        "cd": 2,
+                        "vl": 0,
+                        "tag": "",
+                        "dup": false
+                     }
+                  ],
+                  "table": 7,
+                  "tableCol": [
+                     "Prod",
+                     "Edu",
+                     "Nccs"
+                  ],
+                  "output": "text",
+                  "outputValue": [
+                     {
+                        "id": 1,
+                        "col": "Nccs"
+                     }
+                  ],
+                  "optn": [],
+                  "style": {
+                     "background-color": "inherit",
+                     "color": "inherit",
+                     "font-size": "15px",
+                     "font-weight": "inherit",
+                     "text-align": "left"
+                  },
+                  "setting": {
+                     "hint": "",
+                     "required": true,
+                     "hide": false,
+                     "selectType": "radio",
+                     "minAnswer": 0,
+                     "maxAnswer": 0,
+                     "displayColumn": 1,
+                     "codeValue": false,
+                     "assValue": false
+                  },
+                  "branching": {
+                     "id": 1
+                  },
+                  "logic": {
+                     "inclusive": [],
+                     "exclusive": [],
+                     "visible": {},
+                     "enable": {},
+                     "option": {
+                        "1": {
+                           "syntex": "",
+                           "code": ""
+                        }
+                     },
+                     "script": {}
+                  }
+               }
+            }
+         }
+      },
+      "_uid": "Section1",
+      "_dbfid": 1,
+      "logic": {
+         "loop": false,
+         "loopMax": 0,
+         "loopDepend": "",
+         "dependValue": "",
+         "subLoop": 0
+      }
+   }
+]
